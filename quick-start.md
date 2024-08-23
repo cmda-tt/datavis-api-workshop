@@ -6,9 +6,15 @@ Python is een programmeertaal die bekend staat om gemakkelijk leesbaar en schrij
 
 Jupyter is een stuk software om 'notebooks' te maken. Het is een populair hulpmiddel bovenop Python omdat je code, documentatie en output in 1 overzichtelijk formaat hebt. Je maakt 'interactieve code' in de vorm van cellen waarbij je heel stapsgewijs kunt werken en ondertussen het resultaat van je code kunt zien en documenteren wat de code doet.
 
-Laten we aan de slag gaan om deze tools op je computer te zetten!
+We gaan drie dingen installeren:
 
-## Python en Jupyter notebooks installeren
+1. Python als programmeertaal installeren
+2. Jupyter als notebook formaat installeren
+3. VSCode en extensions instellen
+
+Laten we aan de slag gaan om deze tools op je computer te zetten! 
+
+## 1. Python installeren
 
 We gebruiken de huidige standaard release van Python om notebooks te runnen. Alles boven versie `+3.8` is prima. Je kunt Python installeren via de installer (voor de meeste mensen) van hun website of via de terminal (voor de nerds). Uiteindelijk voeren we een check uit om te kijken of de installatie is gelukt. Voor Jupyter is helaas geen installer, iedereen zal die via de Terminal moeten installeren (zie instructies).
 
@@ -24,7 +30,7 @@ Je kunt checken of de installatie is gelukt door bijvoorbeeld in spotlight op Py
 
 **Voor MacOS:** Open de terminal door via spotlight te zoeken naar 'terminal' of via je finder in 'applications' > 'hulpprogramma's (utilities)
 
-### 1. **Installeer Homebrew**
+### **Installeer Homebrew**
 
 Homebrew is een pakketbeheerder voor macOS waarmee je eenvoudig software kunt installeren. Kopieer het volgende commando in je terminal:
 
@@ -32,7 +38,7 @@ Homebrew is een pakketbeheerder voor macOS waarmee je eenvoudig software kunt in
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### 2. **Installeer Python met Homebrew**
+### **Installeer Python met Homebrew**
 
 Als Homebrew is geïnstalleerd, kun je Python installeren door:
 
@@ -46,7 +52,7 @@ Dit installeert de nieuwste versie van Python 3.
 
 Door `python3 --version` als commando uit te voeren krijg je als het goed is in de terminal het versienummer van je huidige python installatie terug.
 
-### Jupyter installeren via de terminal
+## 2. Jupyter installeren
 
 In beide gevallen installeer je Jupyter Notebook via pip in de terminal, er is helaas geen installer voor het installeren van Jupyter op je computer.
 
@@ -59,7 +65,7 @@ Kopieer en plak het volgende commando en druk op `enter`.
 pip install jupyter
 ```
 
-## Werken met Jupyter Notebooks in VS Code
+## 3. VSCode installeren
 
 Er zijn heel veel verschillende manieren om Jupyter Notebooks te runnen. Bijvoorbeeld via hun website of eigen Jupyterlabs applicatie maar wij raden aan om dat via VSCode te doen, zo kan je straks bij het eindproject goed samenwerken met de tech-trackers omdat zij dezelfde tools gebruiken.
 
