@@ -1,4 +1,4 @@
-![images/guide-banner.svg]
+![Guide Banner](https://raw.githubusercontent.com/cmda-tt/datavis-api-workshop/main/images/guide-banner.svg)
 
 # Getting started
 

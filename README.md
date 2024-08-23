@@ -9,115 +9,36 @@
 This workshop is given for [**@CMDA**][cmda] in 2024 for the Minor Information Design (24/25), course ID Datavisualisatie the 3th of September 2024.
 
 - **Vak**: ID Datavisualisatie
-- **Keywords**: data, information, interactivity, storytelling, visualization
-- **Coordinators**: Frank Kloos & Christiaan van Dokkum
+- **Keywords**: data, information, python, notebook, api,
+- **Coordinators**: [Frank Kloos][frank] & [Christiaan van Dokkum][christiaan]
 - **Lecturers**: [Laura Benvenuti][laura-gh] ([**@LauraBenvenuti**][laura-gh]), [Danny de Vries][dandevri-gh] ([**@dandevri**][dandevri-gh])
 - **University**: [Amsterdam University of Applied Sciences][university]
 - **Programme**: [Communication and Multimedia Design][cmda] (full time bachelor CROHO: `34092`)
 - **Faculty**: [Digital Media and Creative Industries][faculty]
 
-## Description
+## Omschrijving
 
-During the Tech Track you'll be developing your skills in order to create meaningful, beautiful and interactive data visualizations. There's a lot of liberty / personal responsibility in this module: Any library you see fit to apply here is valid. We'll be exploring some of the most used and applicable frameworks within data visualization, but you're free to divert from these if you see fit.
+In de eerste weken van het vak geven we deze workshop om aan alle studenten uit te leggen wat het belang is van dynamische data ophalen vanuit een externe data API in plaats van statische data. We geven de studenten ook handvaten om zelf aan de slag te gaan met een web API naar keuze om daar data uit te halen en deze te plotten.
 
-The Tech Track is a workshop-focused course. We'll be teaching the basics of coding, using libraries for all sorts of applications and data management from micro to macro level. There will be a lot of old-school studying, as you'll need to disect documentations to fully utilise your chosen frameworks. We'll be deep-diving in structuring your visualization, how to set up a robust and scalable architecture and be able to refactor code you've written while exploring.
+## Doelen
 
-Finally, you'll be documenting your progress. We expect an elaborate wiki on github in which you defend your choices, raise any alternatives and showcase your progress. Your final repository also includes a readme, license and other defaults one can expect from an upcoming professional developer. Finally, a reflection on our guest lectures can be included here.
+Tijdens de workshop doen we de volgende dingen:
 
-This copy may seem overwhelming at first, but no fear! We'll start slowly and make sure to precisely explain how these weeks will manifest step-by-step. A quick hint: If you're already seeing words you don't recognize, make sure to Google them now, this will familliarize yourself with the language we and future you will be using. Don't hesitate, your teachers have to Google most of them daily themselves.
+- Het opzetten van een Python en Jupyter notebooks omgeving
+- Wat een API is en hoe de structuur van API's in elkaar ziten
+- Hoe je om kan gaan met verschillende data formaten en structuren
+- Met code data ophalen van een externe API en loggen
+- In een Notebook die data formateren en graphs plotten
 
-**Tech Track** is an elective track given in Information
-Design (fall semester), building further on knowledge acquired in
-**Internetstandaarden**, **Inleiding Programmeren**, **Frontend 1**,
-**Frontend 2**, **Project Tech** and **Back-end**.
+## Programma
 
-If you’d like to continue with web development after this track, pick
-[**Minor Everything Web**][minor] in the spring semester!
-
-## Assignment
-
-In 6 weeks, every student is required to deliver the following:
-
-- A working interactive data visualization.
-- A GitHub repository hosting the code, README with installation instructions and Wiki
-- A documentation that covers the process, choices and hardships during the Tech Track
-- A collection of sketchnotes (or any other format) of all of the guest lectures.
-
-## Communication
-
-- [GitHub][github]
-  — Main source of information, assignments, slides, examples, important dates, etc
-- [Teams][] (**Tech-Track** team)
-  — General chatter, Q&A, updates
-- [Brightspace][]
-  — Assessment scheduling and hand in.
-
-## Goals
-
-The main goals in this track are that you’re able to:
-
-- Clean, transform data with functional programming patterns
-- Create interactive visualizations from (external) data
-- Use D3 or other frameworks to create interactive visualization(s)
-- Work with front-end framework and think in components
-- Apply meaningul animation and / or storytelling in your visualization.
-- Refactor, debug and read complex programs (code)
-
-## Schedule
-
-| Schedule | Subject        |
-| -------- | -------------- |
-| Week 1   | Introduction   |
-| Week 2   | Architecture   |
-| Week 3   | Visualizations |
-| Week 4   | Storytelling   |
-| Week 5   | Advanced       |
-| Week 6   | Assessment     |
-
-## Stuck?
-
-If you get stuck, follow the following steps:
-
-- Read the manual for the technology in question
-  ([Git](https://git-scm.com/docs),
-  [GitHub](https://guides.github.com),
-  [Node](https://nodejs.org/api/),
-  [npm](https://docs.npmjs.com),
-  [d3](https://d3js.org))
-- [Search StackOverflow](https://stackoverflow.com)
-- [Use a search engine like DuckDuckGo](https://duckduckgo.com)
-- [Explain the problem to your 🐤](https://rubberduckdebugging.com/)
-- Ask other students
-- [Ask questions on Teams][teams]
-- [Ask a teacher][synopsis]
-
-## Programme
-
-This track is given at [Communication and Multimedia Design][bachelor], a
-design bachelor focused on interactive digital products and services.
-CMD is part of the [Faculty of Digital Media and Creative Industries][faculty]
-at the [Amsterdam University of Applied Sciences][university].
-
-## Resit
-
-> If you're a student from earlier years (before 22-23), please contact the module coordinators on how to best retake (partially) the tech-track this year.
-
-The resit of the Tech Track will be at the end of Semester 1 of the 22-23 year. Further communication regarding the specific deliverables and time will be communicated at the end of the 6-week tech track.
-
-## Conduct
-
-This track has a [Code of Conduct][coc].
-Anyone interacting with this repository, organisation, or community is bound
-by it.
-
-Staff and students of the Amsterdam University of Applied Sciences (Hogeschool
-van Amsterdam) are additionally bound by the [Regulation Undesirable
-Conduct][ruc] ([Regeling Ongewenst Gedrag][rog]) and the [HvA gedragscode][hvagedrag].
+Dit vak wordt gegeven bij [Communication and Multimedia Design][bachelor], een ontwerp-bachelor gericht op interactieve digitale producten en diensten.
+CMD maakt deel uit van de [Faculteit Digitale Media en Creatieve Industrieën][faculty] aan de [Hogeschool van Amsterdam][university].
 
 ## License
 
-Unless stated otherwise, code is [MIT][mit] © [Robert Spier][roberrrt-s-gh] & [Vincent Vijn][vijnv-gh]
-docs and images are [CC-BY-4.0][].
+Tenzij anders vermeld, is de code [MIT][mit] © [Danny de Vries][dandevri-gh] & [Laura Benvenuti][laura-gh].
+Documentatie en afbeeldingen zijn [CC-BY-4.0][].
 
 <!-- Definitions -->
 
@@ -130,16 +51,10 @@ docs and images are [CC-BY-4.0][].
 [hvagedrag]: https://www.hva.nl/over-de-hva/organisatie/goed-bestuur/gedragscode-van-de-hva/gedragscode-van-de-hva.html
 [mit]: license.md#code
 [cc-by-4.0]: license.md#documentation-and-images
-[banner]: https://cmda-tt.github.io/course-20-21/img/banner.svg
+[banner]: https://raw.githubusercontent.com/cmda-tt/datavis-api-workshop/main/images/course-banner.svg
 [synopsis]: #synopsis
 [cmda]: https://github.com/cmda
-[roberrrt-s-gh]: https://github.com/roberrrt-s
-[vijnv-gh]: https://github.com/vijnv
 [laura-gh]: https://github.com/LauraBenvenuti
 [dandevri-gh]: https://github.com/dandevri
-[minor]: https://cmda.github.io/minor-everything-web/
-[home]: https://github.com/cmda-tt
-[github]: https://github.com/cmda-tt/course-23-24
-[teams]: https://teams.microsoft.com/l/channel/19%3A002e8ba348e44a908e23b932ce5a4cfb%40thread.tacv2/Tech%20Track?groupId=fadcfb62-2f29-4793-b5bf-796c90b1b183&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7
-[Brightspace]: https://dlo.mijnhva.nl/d2l/home/536577
-[lynda-portal]: https://www.linkedin.com/learning/login
+[frank]: https://www.linkedin.com/in/frankkloos/
+[christiaan]: https://www.linkedin.com/in/christiaanvandokkum/
