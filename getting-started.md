@@ -1,4 +1,6 @@
-# Quick Start
+![images/guide-banner.svg]
+
+# Getting started
 
 👋 In deze workshop gaan we werken met [Python](https://www.python.org/) in [Jupyter Notebooks](https://jupyter.org/) stijl. Over het algemeen beschouwd als 'de standaard' toolcombinatie in data science en information design.
 
@@ -12,7 +14,7 @@ We gaan drie dingen installeren:
 2. Jupyter als notebook formaat installeren
 3. VSCode en extensions instellen
 
-Laten we aan de slag gaan om deze tools op je computer te zetten! 
+Laten we aan de slag gaan om deze tools op je computer te zetten!
 
 ## 1. Python installeren
 
