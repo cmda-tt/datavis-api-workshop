@@ -92,15 +92,34 @@ Binnen VSCode downloaden we eental 'extensions' om te kunnen werken met Python s
    - Ga opnieuw naar de extensiemarkt.
    - Zoek naar "Jupyter" en installeer de extensie van Microsoft.
 
-### Notebook test runnen
+### Virtual Env maken
 
-1. **Open een Jupyter Notebook**:
+Om een aantal packages als libraries in een notebook te kunnen runnen moet je een virtual environemnt aanmaken.
 
-   - Ga naar `File` > `Open File...` en selecteer een `.ipynb` bestand als je er een hebt. Je kunt bijvoorbeeld dit testbestand downloaden en openen als voorbeeld.
+1. **Maak een map aan op je computer**
+
+   - Maak via je finder of windows verkenner een map aan op je computer bijvoorbeeld 'datavis-workshop'
+
+2. **Plaats daarin een Jupyter Notebook**
+
+    - Download de 'test-notebook.ipynb' bestand van deze GitHub repo.
+    - Zet dit .ipynb bestand in de folder die je in de vorige stap hebt aangemaakt.
+
+1. **Open de gemaakte map in je code editor**:
+
+   - Ga naar `File` > `Open Folder...` en selecteer de map die je hebt aangemaakt ('e.g. datavis-workshop')
 
 2. **Selecteer je 'kernel' om Notebooks mee te runnen.**
 
-   - Klik op 'Select Kernel' en selecteer daar de Anaconda omgeving die we hebben geinstalleerd.
+   - Klik op 'Select Kernel' rechtsbovenin als het goed is krijg je een dropdown. 
+   - Klik op 'Select Another Kernel' als optie
+   - Klik op 'Python Environments' als optie
+   - Klik op 'Create Python Environment' als optie
+   - Klik op 'Venv' als optie
+
+   Als het goed is heb je nu een virtual environment aangemaakt. Je zou in je map een folder die `.venv` heet moeten zien.
+
+### Notebook test runnen
 
 3. **Run je notebook!**
 
