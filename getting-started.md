@@ -52,7 +52,7 @@ Dit installeert de nieuwste versie van Python 3.
 
 #### Controle installatie
 
-Door `python3 --version` als commando uit te voeren krijg je als het goed is in de terminal het versienummer van je huidige python installatie terug.
+Door `python --version` of `python3 --version` als commando uit te voeren krijg je als het goed is in de terminal het versienummer van je huidige python installatie terug.
 
 ## 2. Jupyter installeren
 
@@ -65,6 +65,12 @@ Kopieer en plak het volgende commando en druk op `enter`.
 
 ```bash
 pip install jupyter
+```
+
+Als dat niet werkt probeer dan:
+
+```bash
+python3 -m pip install jupyter
 ```
 
 ## 3. VSCode installeren
