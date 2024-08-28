@@ -108,7 +108,7 @@ Om een aantal packages als libraries in een notebook te kunnen runnen moet je ee
 
 2. **Plaats daarin een Jupyter Notebook**
 
-    - Download de 'test-notebook.ipynb' bestand van deze GitHub repo.
+    - Download de 'test-notebook.ipynb' bestand van deze GitHub repo uit de `examples` folder.
     - Zet dit .ipynb bestand in de folder die je in de vorige stap hebt aangemaakt.
 
 1. **Open de gemaakte map in je code editor**:
